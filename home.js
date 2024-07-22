@@ -15,7 +15,7 @@ if (window.matchMedia("(max-width: 750px)").matches){
 
 hover=()=>{
     var cimg = document.getElementsByTagName("img")[1];
-    cimg.src = "../assets/images/girl/girl.png";
+    cimg.src = "assets/images/girl/girl.png";
     var burger = document.getElementById("burger");
     burger.style.transition = "all .8s ease";
     burger.style.top = '72%'
@@ -36,7 +36,7 @@ hover=()=>{
 
 nonhover=()=>{
     var cimg = document.getElementsByTagName("img")[1];
-    cimg.src = "../assets/images/girl/girl3.png";
+    cimg.src = "assets/images/girl/girl3.png";
     var burger = document.getElementById("burger");
     burger.style.transition = "all .8s ease";
     burger.style.top = '10%'
